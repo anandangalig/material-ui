@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import Card from './Card';
 import Tabs from './Tabs';
 import Buttons from './Buttons';
+import Griddy from './Griddy';
 
 const useStyles = makeStyles(theme => {
   // console.log(theme);
@@ -29,6 +30,7 @@ function App() {
       <Card />
       <Tabs />
       <Buttons />
+      <Griddy />
       <CssBaseline />
     </div>
   );
